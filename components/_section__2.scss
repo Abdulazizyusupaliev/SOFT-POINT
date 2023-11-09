@@ -1,0 +1,177 @@
+.section__2{
+    display: flex;
+    align-items: center;
+    gap: 74px;
+    padding-top: 110px;
+    
+    .left{
+        .card{
+            width: 282px;
+            height: 290px;
+            flex-shrink: 0;
+            border-radius: 10px;
+            background: #FFF;
+            box-shadow: 0px 15px 65px 0px rgba(65, 77, 68, 0.15);
+            padding: 35px 0 35px 35px;
+    
+            &__title{
+                color: #021206;
+                font-family: Poppins;
+                font-size: 21px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                opacity: 0.8;
+                margin-top: 25px;
+                margin-bottom: 10px;
+            }
+    
+            &__subtitle{
+                color: #021206;
+                font-family: Poppins;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 160%; /* 25.6px */
+            }
+    
+            .settings{
+                height: 75px;
+                border-radius: 10px;
+                background: linear-gradient(142deg, #FF9A9A 3.63%, #F14C4C 91.45%);
+                box-shadow: 1px 5px 30px 0px rgba(215, 21, 21, 0.50);
+                padding: 20px;
+            }
+    
+            .user{
+                height: 75px;
+                border-radius: 10px;
+                background: linear-gradient(154deg, #85FED6 4.45%, #4EDAAC 83.73%);
+                background-blend-mode: luminosity;
+                box-shadow: 1px 5px 30px 0px rgba(83, 215, 171, 0.50);
+                padding: 20px;
+            }
+    
+            .defence{
+                height: 75px;
+                border-radius: 10px;
+                background: linear-gradient(164deg, #FCD876 4.69%, #FABC13 88.66%);
+                background-blend-mode: luminosity;
+                box-shadow: 1px 5px 30px 0px rgba(238, 185, 42, 0.60);
+                padding: 20px;
+            }
+    
+            .code{
+                height: 75px;
+                border-radius: 10px;
+                background: linear-gradient(144deg, #FE9AF4 0%, #EC4EDC 88.72%);
+                background-blend-mode: luminosity;
+                box-shadow: 1px 5px 30px 0px rgba(230, 68, 214, 0.50);
+                padding: 20px;
+            }
+        }
+    
+        display: grid;
+        grid-template-columns: 2;
+        grid-template-rows: 2;
+        
+        .card__1{
+            grid-column: 1/2;
+            grid-row: 1/2;
+        }
+    
+        .card__2{
+            grid-row: 1/2;
+            grid-column: 2/3;
+        }
+    
+        gap: 30px;
+    
+        .card__3{
+            grid-row: 2/3;
+            grid-column: 1/2;
+        }
+    
+        .card__4{
+            grid-row: 2/3;
+            grid-column: 2/3;
+        }
+    }
+
+    .right{
+
+        &__title{
+            color: #021206;
+            font-family: Poppins;
+            font-size: 45px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            max-width: 548px;
+        }
+
+        &__first__subtitle{
+            color: #021206;
+            font-family: Poppins;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 160%; /* 28.8px */
+            opacity: 0.7;
+            max-width: 480px;
+            margin-top: 25px;
+        }
+
+        &__second__subtitle{
+            color: #021206;
+            font-family: Poppins;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 160%; /* 28.8px */
+            opacity: 0.7;
+            max-width: 480px;
+            margin: 25px 0;
+
+            span{
+                opacity: 0.7;
+                color: #021206;
+                font-family: Poppins;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 160%;
+            }
+        }   
+        .buttons{
+            display: flex;
+            align-items: center;
+            gap: 25px;
+
+            a.learnmore{
+                padding: 15px 40px;
+                border-radius: 6px;
+                background: #282323;
+                color: #FFF;
+                font-family: Poppins;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 160%; /* 28.8px */
+            }
+
+            a.ask{
+                color: #FF4D4D;
+                font-family: Poppins;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 160%; /* 28.8px */
+            }
+
+            a.ask:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+}

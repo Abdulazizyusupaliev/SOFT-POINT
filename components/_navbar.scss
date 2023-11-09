@@ -1,0 +1,93 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .logo {
+        color: #24DC9F;
+        text-shadow: 0px 4px 70px rgba(155, 215, 195, 0.80);
+        font-family: Poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        position: relative;
+
+        .before{
+            width: 19.314px;
+            height: 2.117px;
+            transform: rotate(-49.664deg);
+            flex-shrink: 0;
+            border-radius: 56px;
+            background: #FEDF8B;
+            box-shadow: -4px 1px 80px 0px rgba(246, 216, 135, 0.70);
+            position: absolute;
+            top: 14px;
+            left:10px;
+        }
+
+        .after{
+            width: 19.314px;
+            height: 2.117px;
+            transform: rotate(-49.664deg);
+            flex-shrink: 0;
+            border-radius: 56px;
+            background: #FEDF8B;
+            box-shadow: -4px 1px 80px 0px rgba(246, 216, 135, 0.70);
+            position: absolute;
+            top: 14px;
+            right: 30px;
+        }
+    }
+
+    &__list{
+        display: flex;
+        align-items: center;
+        gap: 53px;
+
+        a{
+            color: #021206;
+            font-family: Poppins;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            opacity: 0.5;
+        }
+    }
+
+    .signup__login{
+        display: flex;
+        align-items: center;
+        gap: 23px;
+
+        .login__btn{
+            color: #021206;
+            font-family: Poppins;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            border: none;
+            outline: none;
+            background-color: #fff;
+        }
+
+        .signup__btn{
+            color: #FFF;
+            font-family: Poppins;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            border-radius: 6px;
+            background: #F44545;
+            display: inline-flex;
+            padding: 15px 30px;
+            align-items: flex-start;
+            gap: 10px;
+            border: none;
+            outline: none;
+        }
+    }
+}
